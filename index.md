@@ -4,7 +4,9 @@
 [**What's stem?**](https://stem.torproject.org/index.html) Python library to interact with Tor.
 
 ## Motivation
-When I got started with stem, I was just a fresh, out-of-college graduate. I found stem interesting, but the API was tough to understand at first and there weren't many resources that helped. There aren't many today. This project aims to work as a starting point for people who want to do interesting things with Tor.
+When I got started with stem, I was just a fresh, out-of-college graduate. I found stem interesting, but the API docs were tough to understand at first and there weren't many resources that helped. 
+
+There aren't many today, but now I am able to realize how well written the API docs are. This project aims to work as a starting point for people who want to do interesting things with Tor but are initmidated by stem's docs.
 
 ## Setup Used
 * Python 3.6 (inside a virtualenv)
@@ -18,9 +20,9 @@ When I got started with stem, I was just a fresh, out-of-college graduate. I fou
 
 ## Tutorials
 * [Getting Tor Version](./get_version.md)
-
+* [Launching Tor](./launching_tor.md)
 
 ## Contact
 
-* [Email](garg.manav8@protonmail.com) 
+* [Email](mailto:garg.manav8@protonmail.com) 
 * [Twitter](https://twitter.com/sigmapie8)

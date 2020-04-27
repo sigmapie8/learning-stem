@@ -4,7 +4,7 @@
 * [Tor](https://www.torproject.org/download/)
 * [stem](https://stem.torproject.org/download.html) (Use pip)
 
-First thing we'd learn using stem is to get Tor's version. Please download/install all the dependcies for this tutorial).
+First thing we'd learn using stem is to get Tor's version. Please download/install all the dependcies for this tutorial.
 
 
 Let's jump to an example:
@@ -23,5 +23,10 @@ except IOError as e:
 
 ```
 
-
-
+You also get to break down this version if you want:
+```python
+print("Major:", my_version.major)
+print("Minor:", my_version.minor)
+print("extra info:", my_version.all_extra)
+```
+Full API can be found [here](https://stem.torproject.org/api/version.html)
