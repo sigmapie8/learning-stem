@@ -22,6 +22,7 @@ There aren't many today, but now I am able to realize how well written the API d
 * [Getting Tor Version](./get_version.md)
 * [Launching Tor](./launching_tor.md)
 * [Requests with Tor](./requests_with_tor.md)
+* [Controlling the Exit](./controlling_exit.md)
 
 ## Contact
 

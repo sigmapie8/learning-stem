@@ -34,11 +34,11 @@ data = requests.get("https://api.myip.com/")
 print("before Tor:", data.json())
 
 tor = launch_tor(tor_cmd= tor_path, init_msg_handler= print_status, 
-				take_ownership=True)
+	take_ownership=True)
 
 try:
 	data = requests.get('https://api.myip.com/', 
-						proxies={'https': 'SOCKS5://127.0.0.1:9050'})
+		proxies={'https': 'SOCKS5://127.0.0.1:9050'})
 	print("After Tor:", data.json())
 
 except Exception as e:
@@ -80,12 +80,11 @@ print("before Tor:", data.json())
 
 #CHANGED
 tor = launch_tor_with_config(config = {'SocksPort': '7000'}, 
-							tor_cmd= tor_path, 
-							init_msg_handler= print_status)
+	tor_cmd= tor_path, init_msg_handler= print_status)
 try:
 	#CHANGED
 	data = requests.get('https://api.myip.com/', 
-						proxies={'https': 'SOCKS5://127.0.0.1:7000'})
+		proxies={'https': 'SOCKS5://127.0.0.1:7000'})
 	print("After Tor:", data.json())
 
 except Exception as e:
